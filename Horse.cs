@@ -104,11 +104,15 @@ namespace CSharp9_5
                             {
                                 break;
                             }
+                            if (key.Key == ConsoleKey.Enter)
+                            {
+                                break;
+                            }
                         }
 
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.SetCursorPosition(18, 24);
-                        Console.Write("Press SPACEBAR to continue ...");
+                        Console.Write("Press SPACEBAR or ENTER to continue ...");
                     }
                 }
             }
