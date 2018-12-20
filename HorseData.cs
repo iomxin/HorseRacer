@@ -21,14 +21,15 @@ namespace CSharp9_5
         }
         
         public static string[] HorseNames = { 
-                                      "Old Fart", 
-                                      "Lazy Bastard", 
+                                      "God Boat", 
+                                      "Deff Mystery", 
                                       "Lightning Lue", 
                                       "Funky Frankie", 
                                       "Cookie Monster", 
                                       "Roadrunner", 
                                       "Run Forrest", 
-                                      "Wicked Wizard" 
+                                      "Wicked Wizard",
+                                      "Iomxin Destroyer"
                                   };
 
         public static ConsoleColor[] HorseColors = {
